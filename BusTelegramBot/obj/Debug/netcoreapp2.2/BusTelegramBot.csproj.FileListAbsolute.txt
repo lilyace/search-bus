@@ -1,0 +1,10 @@
+C:\Users\lilyace\source\repos\BusTelegramBot\BusTelegramBot\bin\Debug\netcoreapp2.2\BusTelegramBot.deps.json
+C:\Users\lilyace\source\repos\BusTelegramBot\BusTelegramBot\bin\Debug\netcoreapp2.2\BusTelegramBot.runtimeconfig.json
+C:\Users\lilyace\source\repos\BusTelegramBot\BusTelegramBot\bin\Debug\netcoreapp2.2\BusTelegramBot.runtimeconfig.dev.json
+C:\Users\lilyace\source\repos\BusTelegramBot\BusTelegramBot\bin\Debug\netcoreapp2.2\BusTelegramBot.dll
+C:\Users\lilyace\source\repos\BusTelegramBot\BusTelegramBot\obj\Debug\netcoreapp2.2\BusTelegramBot.AssemblyInfoInputs.cache
+C:\Users\lilyace\source\repos\BusTelegramBot\BusTelegramBot\obj\Debug\netcoreapp2.2\BusTelegramBot.AssemblyInfo.cs
+C:\Users\lilyace\source\repos\BusTelegramBot\BusTelegramBot\bin\Debug\netcoreapp2.2\BusTelegramBot.pdb
+C:\Users\lilyace\source\repos\BusTelegramBot\BusTelegramBot\obj\Debug\netcoreapp2.2\BusTelegramBot.csprojAssemblyReference.cache
+C:\Users\lilyace\source\repos\BusTelegramBot\BusTelegramBot\obj\Debug\netcoreapp2.2\BusTelegramBot.dll
+C:\Users\lilyace\source\repos\BusTelegramBot\BusTelegramBot\obj\Debug\netcoreapp2.2\BusTelegramBot.pdb
