@@ -10,7 +10,7 @@ namespace BusTelegramBot
         static private ITelegramBotClient botClient;
         static void Main(string[] args)
         {
-            botClient = new TelegramBotClient("1048461903:AAFSHqvLj8sQ8l_baOhJ9P5KUaziSo8gG64");
+            botClient = new TelegramBotClient("1144536009:AAH_craoTzU26XLOXg_ppD4_qM-Qxp0DfB0");
             var me = botClient.GetMeAsync().Result;
             Console.WriteLine($"Hello World! Its me: {me.Id} and my name is {me.FirstName}");
             botClient.OnMessage += Bot_OnMessage;
