@@ -1,1 +1,1 @@
-web: cd $HOME/heroku_output && ./BusTelegramBo
+worker: cd $HOME/heroku_output && ./BusTelegramBot
