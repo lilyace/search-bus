@@ -1,0 +1,11 @@
+C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo\bin\Debug\netstandard2.0\BusInfo.deps.json
+C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo\bin\Debug\netstandard2.0\BusInfo.dll
+C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo\bin\Debug\netstandard2.0\BusInfo.pdb
+C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo\bin\Debug\netstandard2.0\BusInfo.Models.dll
+C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo\bin\Debug\netstandard2.0\BusInfo.Models.pdb
+C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo\obj\Debug\netstandard2.0\BusInfo.csprojAssemblyReference.cache
+C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo\obj\Debug\netstandard2.0\BusInfo.AssemblyInfoInputs.cache
+C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo\obj\Debug\netstandard2.0\BusInfo.AssemblyInfo.cs
+C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo\obj\Debug\netstandard2.0\BusInfo.csproj.CopyComplete
+C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo\obj\Debug\netstandard2.0\BusInfo.dll
+C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo\obj\Debug\netstandard2.0\BusInfo.pdb
