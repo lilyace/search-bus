@@ -15,6 +15,7 @@ namespace BusInfo.Services.Implementations
         private static HttpResponseMessage _response;
         private static RouteInfoModel _rootElement;
         private static TrafficRouteInfoModel _routeInfo;
+
         public async Task<IEnumerable<string>> GetBusStopList(int routeNumber, char direction)
         {
             _routeInfo = await GetRouteInfo(routeNumber, direction);
@@ -82,6 +83,18 @@ namespace BusInfo.Services.Implementations
                 return routeInfo;
             }
             return null;
+        }
+
+        public async Task<RoutesListModel> GetAllRoutes()
+        {
+            _response = await _client.GetAsync("https://mu-kgt.ru/informing/wap/marsh/?action=getListRoute");
+            if (_response.IsSuccessStatusCode)
+            {
+                var textResponse = await _response.Content.ReadAsStringAsync();
+                var allRoutes = JsonConvert.DeserializeObject<RoutesListModel>(textResponse);
+                return allRoutes;
+            }
+            else return null;
         }
     }
 }

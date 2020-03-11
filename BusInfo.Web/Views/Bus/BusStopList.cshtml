@@ -1,0 +1,10 @@
+﻿@model IEnumerable<string>
+
+<h2>Список всех остановок маршрута @ViewBag.RouteNumber</h2>
+
+<ul>
+    @foreach (var busStop in Model)
+    {
+        <li>@busStop</li>
+    }
+</ul>

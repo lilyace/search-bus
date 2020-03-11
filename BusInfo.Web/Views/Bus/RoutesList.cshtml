@@ -1,0 +1,12 @@
+﻿@model IEnumerable<RouteDirectionsModel>
+
+<h2>Список всех маршрутов</h2>
+
+@foreach(var route in Model)
+{
+<div class="mb-1 border">
+    <p>Маршрут номер @route.Name</p>
+    <p>Прямой маршрут: @route.DirectRoute.FirstBusStop - @route.DirectRoute.LastBusStop</p>
+    <p>Обратный маршрут: @route.ReturnRoute.FirstBusStop - @route.ReturnRoute.LastBusStop</p>
+</div>
+}
