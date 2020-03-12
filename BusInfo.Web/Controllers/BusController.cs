@@ -22,11 +22,17 @@ namespace BusInfo.Web.Controllers
             return View((await _busInformationService.GetAllRoutes()).Buses);
         }
 
-        public async Task<IActionResult> BusStopList(int routeNum)
+        public async Task<ViewResult> BusStopList(int routeNum)
         {
             ViewBag.RouteNumber = routeNum;
             var list = await _busInformationService.GetBusStopList(routeNum);
             return View(list);
+        }
+
+        public async Task<ViewResult> ActiveBuses(int routeNumber)
+        {
+            var activeBusesCount = await _busInformationService.GetActiveBusesCount(routeNumber);
+            return View(activeBusesCount);
         }
     }
 }

@@ -22,10 +22,10 @@ namespace BusInfo.Services.Implementations
             return _routeInfo?.BusStopList.Select(bs => bs.Name);
         }        
 
-        public async Task<int> GetActiveBusesCount(int routeNumber, char direction = 't')
+        public async Task<int?> GetActiveBusesCount(int routeNumber, char direction = 't')
         {
             _routeInfo = await GetRouteInfo(routeNumber, direction);            
-            return _routeInfo.ActiveBuses.Count();
+            return _routeInfo?.ActiveBuses.Count();
         }
 
         public async Task<string> GetBusArrivalTime(int mRoute, string busStopName, char direction = 't')

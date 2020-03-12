@@ -1,7 +1,6 @@
 C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo.Models\bin\Debug\netstandard2.0\BusInfo.Models.deps.json
 C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo.Models\bin\Debug\netstandard2.0\BusInfo.Models.dll
 C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo.Models\bin\Debug\netstandard2.0\BusInfo.Models.pdb
-C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo.Models\obj\Debug\netstandard2.0\BusInfo.Models.csprojAssemblyReference.cache
 C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo.Models\obj\Debug\netstandard2.0\BusInfo.Models.AssemblyInfoInputs.cache
 C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo.Models\obj\Debug\netstandard2.0\BusInfo.Models.AssemblyInfo.cs
 C:\Users\lilyace\source\repos\BusTelegramBot\BusInfo.Models\obj\Debug\netstandard2.0\BusInfo.Models.dll

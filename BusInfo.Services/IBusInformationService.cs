@@ -8,7 +8,7 @@ namespace BusInfo.Services
     public interface IBusInformationService
     {
         Task<IEnumerable<string>> GetBusStopList(int routeNumber, char direction='t');
-        Task<int> GetActiveBusesCount(int routeNumber, char direction);
+        Task<int?> GetActiveBusesCount(int routeNumber, char direction='t');
         Task<string> GetBusArrivalTime(int routeNumber, string busStopName, char direction);
         Task<RoutesListModel> GetAllRoutes();
     }
